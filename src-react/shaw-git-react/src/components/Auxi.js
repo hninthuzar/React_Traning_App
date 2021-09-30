@@ -1,0 +1,1 @@
+export const Auxi = props => props.children;

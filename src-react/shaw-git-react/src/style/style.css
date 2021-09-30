@@ -1,0 +1,127 @@
+.notfound {
+	font-size: 80px;
+	font-weight: 400;
+	color: black;
+}
+.login-box {
+	max-width: 450px;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	margin: auto;
+	height: 240px;
+	padding: 1em;
+	padding-top: 25px;
+	margin-top: 100px;
+}
+
+.login-box .ant-form-item,
+.signup-box .ant-form-item {
+	margin-bottom: 10px;
+}
+.fontBold {
+	font-size: medium;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.fontNormal {
+	float: right;
+	font-weight: 500;
+	margin-bottom: 7px;
+}
+.right {
+	float: right;
+}
+.login-form-button {
+	width: 100%;
+}
+
+.signup-text {
+	text-align: center;
+	font-size: medium;
+	font-weight: 500;
+	margin-bottom: 6px;
+}
+.smallFont {
+	font-size: small;
+}
+
+.logo, .logo:hover, .logo::selection {
+	float: left;
+	color: #fff;
+	text-decoration: none;
+}
+
+.foodImg{
+  width: 200px;
+  height: 150px;
+  border-radius: 4px;
+}
+
+
+
+
+
+/**************** override antd ******************/
+
+.ant-layout-header{
+	line-height: 50px;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected{
+	background-color: #43a047;
+}
+
+.ant-btn-primary, .ant-btn-primary:hover, .ant-btn-primary:focus{
+	background-color: #388e3c;
+  border-color:#388e3c;
+}
+
+.ggcard{
+  width: "120px" ; 
+  text-align: "center";
+  display: "inline-block";
+  margin: "6px";
+  cursor:"pointer";
+}
+.ggcard > .ant-card-body{
+  padding: 2px;
+}
+.editable-cell {
+	position: relative;
+}
+  
+.editable-cell-value-wrap {
+	padding: 5px 12px;
+	cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+	border: 1px solid #d9d9d9;
+	border-radius: 4px;
+	padding: 4px 11px;
+}
+
+.ggtable .ant-table-footer{
+    text-align: right;
+    padding-right: 6%;
+    font-weight: bolder;
+}
+
+#order .ant-card-body{
+	padding: 4px;
+}
+
+@font-face {
+	font-family:'Zawgyi-One';
+	src:local('Zawgyi-One'), url('https://mmwebfonts.comquas.com/fonts/zawgyi.woff') format('woff'), url('https://mmwebfonts.comquas.com/fonts/zawgyi.ttf') format('ttf');
+	}
+
+@font-face {
+	font-family: 'Zawgyi-One';
+	src: url('../asserts/fonts/zawgyi.woff') format('woff'),
+		url('../asserts/fonts/zawgyi.ttf')  format('truetype'); /* Safari, Android, iOS */
+  }
+  
+* {
+font-family: 'Zawgyi-One', Fallback, sans-serif;
+}
